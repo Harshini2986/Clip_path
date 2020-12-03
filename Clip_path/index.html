@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clip-Path</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="banner"></section>
+	<div>
+		
+		<script type="text/javascript">
+			var pos = document.documentElement;
+			pos.addEventListener("mousemove", e => {
+				pos.style.setProperty('--x', e.clientX + "px");
+				pos.style.setProperty('--y', e.clientY + "px");
+			})
+		</script>
+	</div>
+
+</body>
+</html>
